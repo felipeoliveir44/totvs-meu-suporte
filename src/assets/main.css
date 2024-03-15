@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Lato&display=swap');
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    main {
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
