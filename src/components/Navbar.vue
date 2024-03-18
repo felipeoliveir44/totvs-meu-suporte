@@ -47,6 +47,7 @@ header {
     
 }
 nav {
+    z-index: 999;
     margin: 20px auto;
     /* Adiciona margem automática nas laterais para centralizar */
     max-width: 1200px;

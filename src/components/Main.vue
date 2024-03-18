@@ -25,7 +25,7 @@
                         técnica com a TOTVS e impulsione seu sucesso.</p>
                 </div>
             </div>
-        </section>
+    </section>
 
         <section class="funcionalidades">
             <div class="container-funcionalidades">
@@ -96,92 +96,180 @@
 
             </div>
 
-        <div class="slider">
-            <div class="slide-track">
-                    <div class="slide">
-                        <div class="cardCliente">
-                            <div class="imgCliente">
+            <div class="slider">
+                <div class="slide-track">
+                        <div class="slide">
+                            <div class="cardCliente">
+                                <div class="imgCliente">
 
-                            </div>
-                            <div class="text-cliente">
-                                <h5>LRA Junior vestuario LTDA</h5>
-                                <p>"Quero deixar meu agradecimento para o Luiz, que passou todo o passo a passo para que possamos utilizar o "Meu Suporte" tirou todas as dúvidas, o sistema também ficou ótimo com a nova atualização."</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="cardCliente">
-                            <div class="imgCliente">
-
-                            </div>
-                            <div class="text-cliente">
-                                <h5>VULCABRAS SP COMERCIO DE ARTIGOS ESPORTIVOS LTDA </h5>
-                                <p>"Facilita muito o processo."</p>
+                                </div>
+                                <div class="text-cliente">
+                                    <h5>LRA Junior vestuario LTDA</h5>
+                                    <p>"Quero deixar meu agradecimento para o Luiz, que passou todo o passo a passo para que possamos utilizar o "Meu Suporte" tirou todas as dúvidas, o sistema também ficou ótimo com a nova atualização."</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="slide">
-                        <div class="cardCliente">
-                            <div class="imgCliente">
+                        <div class="slide">
+                            <div class="cardCliente">
+                                <div class="imgCliente">
 
+                                </div>
+                                <div class="text-cliente">
+                                    <h5>VULCABRAS SP COMERCIO DE ARTIGOS ESPORTIVOS LTDA </h5>
+                                    <p>"Facilita muito o processo."</p>
+                                </div>
                             </div>
-                            <div class="text-cliente">
-                                <h5>RECCO RECCO e CIA LTDA </h5>
-                                <p>"Ferramenta funcionado perfeitamente para instalação do Virtual PDV, sem nenhum problema. Obrigado a equipe Meu Suporte!!"</p>
+                        </div>
+                        <div class="slide">
+                            <div class="cardCliente">
+                                <div class="imgCliente">
+
+                                </div>
+                                <div class="text-cliente">
+                                    <h5>RECCO RECCO e CIA LTDA </h5>
+                                    <p>"Ferramenta funcionado perfeitamente para instalação do Virtual PDV, sem nenhum problema. Obrigado a equipe Meu Suporte!!"</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                
-            </div>
-        </div>
-
-        <div class="slider">
-            <div class="slide-track-right">
-                <div class="slide">
-                    <div class="cardCliente">
-                        <div class="imgCliente">
-
-                        </div>
-                        <div class="text-cliente">
-                            <h5>ONESHOP DISTRIBUIDORA LTDA </h5>
-                            <p>"Processo de atualização realizado de forma rápida e precisa. Excelente ferramenta!"</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="cardCliente">
-                        <div class="imgCliente">
-
-                        </div>
-                        <div class="text-cliente">
-                            <h5>AMAVIA CAMACARI COSMETICOS LTDA  </h5>
-                            <p>"Produto top!"</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="slide">
-                    <div class="cardCliente">
-                        <div class="imgCliente">
-
-                        </div>
-                        <div class="text-cliente">
-                            <h5>COMERCIAL CARAPA DE SECOS E MOLHADOS LTDA</h5>
-                            <p>"Aplicativo é muito útil em diversos momentos, contudo sinto que ele falha em não iniciar automaticamente junto do sistema..."</p>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
-        </div>
 
-    </section>
+            <div class="slider">
+                <div class="slide-track-right">
+                    <div class="slide">
+                        <div class="cardCliente">
+                            <div class="imgCliente">
+
+                            </div>
+                            <div class="text-cliente">
+                                <h5>ONESHOP DISTRIBUIDORA LTDA </h5>
+                                <p>"Processo de atualização realizado de forma rápida e precisa. Excelente ferramenta!"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="cardCliente">
+                            <div class="imgCliente">
+
+                            </div>
+                            <div class="text-cliente">
+                                <h5>AMAVIA CAMACARI COSMETICOS LTDA  </h5>
+                                <p>"Produto top!"</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="cardCliente">
+                            <div class="imgCliente">
+
+                            </div>
+                            <div class="text-cliente">
+                                <h5>COMERCIAL CARAPA DE SECOS E MOLHADOS LTDA</h5>
+                                <p>"Aplicativo é muito útil em diversos momentos, contudo sinto que ele falha em não iniciar automaticamente junto do sistema..."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="newsletter">
+                <div class="container-newsletter">
+                    <div class="text-newsletter test">
+                        <h5>Entre na nossa Newsletter</h5>
+                        <p>Quer se manter atualizado sobre as últimas novidades do Meu Suporte? Então não deixe de assinar a nossa newsletter</p>
+                    </div>
+
+                    <div class="input test">
+                        <label for="nomeCartao"></label>
+                        <input class="inputs" type="email" id="email" name="email" placeholder="Digite seu email" required>
+                        <button class="inscrever"> Inscrever-se</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="logo-totvs">
+                <img src="../assets/images/logo-totvs-h-white.svg" alt="">
+            </div>
+        </footer>
 
 </template>
 
 <style>
-
+#app {
+    background-color: #111111;
+}
 * {
     overflow-x: hidden;
+}
+
+.test {
+    width: 600px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo-totvs img {
+    width: 50%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    background-color: #111111;
+}
+.newsletter {
+    color: #fff;
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: row;
+    gap: 10px;
+    max-width: 1200px;
+}
+.text-newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.container-newsletter {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    padding: 20px 0px;
+}
+
+.newsletter h5 {
+    font-size: 32px;
+}
+
+.inputs {
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.inscrever {
+    width: 168px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #000000;
+    color:#fff;
+    border: none;
 }
 
 .apresentacao {
