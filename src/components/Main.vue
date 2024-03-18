@@ -36,7 +36,6 @@
                 </p>
                 <div class="container-cards">
                     <div class="cards-funcionalidades card1">
-
                     </div>
 
                     <div class="cards-funcionalidades card2">
@@ -87,11 +86,103 @@
             </div>
         </section>
 
-        
-    
+        <section class="clientes-dizem">
+            <div class="container-clientes">
+                <h4>O que nossos clientes dizem</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi facilis vel earum distinctio sint eum
+                    iste ut perspiciatis accusantium obcaecati maiores assumenda, asperiores quibusdam ex eos veniam
+                    consequatur harum quo.
+                </p>
+
+            </div>
+
+        <div class="slider">
+            <div class="slide-track">
+                    <div class="slide">
+                        <div class="cardCliente">
+                            <div class="imgCliente">
+
+                            </div>
+                            <div class="text-cliente">
+                                <h5>LRA Junior vestuario LTDA</h5>
+                                <p>"Quero deixar meu agradecimento para o Luiz, que passou todo o passo a passo para que possamos utilizar o "Meu Suporte" tirou todas as dúvidas, o sistema também ficou ótimo com a nova atualização."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="cardCliente">
+                            <div class="imgCliente">
+
+                            </div>
+                            <div class="text-cliente">
+                                <h5>VULCABRAS SP COMERCIO DE ARTIGOS ESPORTIVOS LTDA </h5>
+                                <p>"Facilita muito o processo."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="cardCliente">
+                            <div class="imgCliente">
+
+                            </div>
+                            <div class="text-cliente">
+                                <h5>RECCO RECCO e CIA LTDA </h5>
+                                <p>"Ferramenta funcionado perfeitamente para instalação do Virtual PDV, sem nenhum problema. Obrigado a equipe Meu Suporte!!"</p>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+
+        <div class="slider">
+            <div class="slide-track-right">
+                <div class="slide">
+                    <div class="cardCliente">
+                        <div class="imgCliente">
+
+                        </div>
+                        <div class="text-cliente">
+                            <h5>ONESHOP DISTRIBUIDORA LTDA </h5>
+                            <p>"Processo de atualização realizado de forma rápida e precisa. Excelente ferramenta!"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="cardCliente">
+                        <div class="imgCliente">
+
+                        </div>
+                        <div class="text-cliente">
+                            <h5>AMAVIA CAMACARI COSMETICOS LTDA  </h5>
+                            <p>"Produto top!"</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="cardCliente">
+                        <div class="imgCliente">
+
+                        </div>
+                        <div class="text-cliente">
+                            <h5>COMERCIAL CARAPA DE SECOS E MOLHADOS LTDA</h5>
+                            <p>"Aplicativo é muito útil em diversos momentos, contudo sinto que ele falha em não iniciar automaticamente junto do sistema..."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
 </template>
 
 <style>
+
+* {
+    overflow-x: hidden;
+}
 
 .apresentacao {
     display: flex;
@@ -141,6 +232,7 @@
 }
 
 .funcionalidades {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -173,7 +265,7 @@
 }
 
 .cards-funcionalidades {
-    width: 450px;
+    width: 400px;
     height: 400px;
     background-color: #111111;
     border-radius: 30px;
@@ -196,7 +288,7 @@
 }
 
 .card5 {
-    width: 930px;
+    width: 820px;
     height: 400px;
     grid-area: card5;
 }
@@ -220,7 +312,7 @@
     color: #fff;
 }
 
-.container-metricas h4 {
+h4 {
     font-size: 32px;
 }
 
@@ -229,8 +321,6 @@
     flex-direction: row;
     gap: 20px;
     padding: 20px;
-    
-    
 }
 
 .text-card {
@@ -249,5 +339,158 @@
 
 .numeros-metricas {
     font-size: 32px;
+}
+
+.clientes-dizem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: #D8DBE2;
+}
+
+.container-clientes {
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+
+
+
+@keyframes scrollLeft {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(1210px);
+    }
+
+}
+
+@keyframes scrollRight {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(-1210px);
+    }
+
+}
+
+.slider {
+    display: flex;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
+    max-width: 1200px;
+}
+
+
+.slider .slide {
+    display: flex;
+}
+
+.slider {
+    display: flex;
+    height: auto;
+    margin: 20px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.slider .slide-track {
+    display: flex;
+    animation: scrollLeft 15s linear infinite;
+    -webkit-animation: scrollLeft 15s linear infinite;
+    gap:30px;
+}
+
+.slider .slide-track-right {
+    display: flex;
+    animation: scrollRight 15s linear infinite;
+    -webkit-animation: scrollRight 15s linear infinite;
+    gap:30px;
+}
+
+.cardCliente {
+    width: 400px;
+    height: 150px;
+    background-color: #111111;
+    color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1300px) {
+    * {
+        overflow-x: hidden;
+    }
+    nav {
+        margin: 20px;
+        width: 95%;
+    }
+
+    .container {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .banner-apresentacao img {
+        width: 100%;
+    }
+
+    .container-funcionalidades {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .card-apresentacao {
+        height: auto;
+    }
+
+    .cards-funcionalidades {
+    width: 400px;
+    height: 400px;
+    background-color: #111111;
+    border-radius: 30px;
+    }
+
+    .container-metricas {
+        margin: 10px;
+    }
+
+    .container-clientes {
+        margin: 10px;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .container-cards {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5"
+    }
+
+    
 }
 </style>

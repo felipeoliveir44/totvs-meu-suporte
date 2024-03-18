@@ -88,13 +88,20 @@ nav img {
     height: 32px;
 }
 
-.links a {
-    color: white;
-    text-decoration: none;
-    margin-right: 2rem;
-    border-bottom: 1px solid #fff;
+#btn-login:hover {
+    transition: 0.2s linear;
+    background-color: #302174;
 }
 
+.links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+.links a:hover {
+    transition: 0.2s linear;
+    color: #d1d1d1;
+}
 .intro {
     display: flex;
     justify-items: center;
@@ -104,8 +111,7 @@ nav img {
 }
 
 .container-intro {
-    min-width: 1200px;
-    height: 300px;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,18 +123,22 @@ nav img {
 }
 
 #meu-suporte {
-    font-size: 60px;
+    font-size: 52px;
     text-shadow: rgb(17, 17, 17) -6px 8px 0px, rgb(107, 72, 255) -10px 12px 0px;
     font-family: 'Bungee', sans-serif;
 }
 
 .container-intro img {
-    width: 40%;
+    width: 70%;
     height: 100%;
 }
 
 .intro-text {
     font-size: 1.5rem;
+}
+
+.intro-text-meu-suporte {
+    width: 100%;
 }
 
 .btn-download {
@@ -147,5 +157,10 @@ nav img {
 .btn-download img {
     width: 64px;
     height: 64px;
+}
+
+.btn-download:hover {
+    transition: 0.2s linear;
+    background-color: #302174;
 }
 </style>
