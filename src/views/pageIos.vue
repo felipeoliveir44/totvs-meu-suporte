@@ -1,11 +1,9 @@
 <script lang="ts">
 import Navbar from '../components/Navbar.vue';
-import Main from '../components/Main.vue'
 export default {
 
  components: {
-    Navbar,
-    Main
+    Navbar
   },
 }
 </script>
@@ -14,7 +12,7 @@ export default {
 <body>
     <nav class="navbar">
         <div class="container">
-            <img src="logoios.png" alt="Logo">
+            <img src="../assets/images/ios/logoios.png" alt="Logo">
         </div>
     </nav>
 
@@ -27,7 +25,7 @@ export default {
     </div>
 
     <section class="centralizar-imag">
-        <img src="turma.png" alt="Turma">
+        <img src="../assets/images/ios/turma.png" alt="Turma">
     </section>
 
     <div class="cursos-ios">
@@ -40,32 +38,32 @@ export default {
 
                     <div class="card-cursos card1">
                         <p>PROGRAMAÇÃO WEB</p>
-                        <img src="image5.png" alt="Card1" class="img-cursos">
+                        <img src="../assets/images/ios/image5.png" alt="Card1" class="img-cursos">
                     </div>
 
                     <div class="card-cursos card2">
                         <p>SUPORTE EM TI</p>
-                        <img src="image4.png" alt="Card2" class="img-cursos">
+                        <img src="../assets/images/ios/image4.png" alt="Card2" class="img-cursos">
                     </div>
         
                     <div class=" card-cursos card3">
                         <p>MICROSOFT ESSENTIAL</p>
-                        <img src="image6.png" alt="Card3" class="img-cursos">
+                        <img src="../assets/images/ios/image6.png" alt="Card3" class="img-cursos">
                     </div>
 
                     <div class="card-cursos card4">
                         <p>GESTÃO DE PLATAFORMA ZENDESK</p>
-                        <img src="image7.png" alt="Card4" class="img-cursos">
+                        <img src="../assets/images/ios/image7.png" alt="Card4" class="img-cursos">
                     </div>
 
                     <div class="card-cursos card5">
                         <p>GESTÃO EMPRESARIAL</p>
-                        <img src="image9.png" alt="Card5" class="img-cursos">
+                        <img src="../assets/images/ios/image9.png" alt="Card5" class="img-cursos">
                     </div>
 
                     <div class="card-cursos card6">
                         <p>COMUNICAÇÃO E MÍDIAS SOCIAS</p>
-                        <img src="image8.png" alt="Card6" class="img-cursos">
+                        <img src="../assets/images/ios/image8.png" alt="Card6" class="img-cursos">
                     </div>
 
                     <a href="https://ios.org.br/cursos-ios"><button>Ver Mais</button></a>
@@ -80,7 +78,7 @@ export default {
         <div class="centro">
             <div class="content">
 
-                <img src="banner-startech 1.png" alt=logoStartTech class="logo-totvs">
+                <img src="../assets/images/ios/banner-startech 1.png" alt=logoStartTech class="logo-totvs">
 
                 <h1>START TECH</h1>
                 <P>O Start Tech é um programa criado pela TOTVS com o intuito de ampliar a empregabilidade de jovens em
@@ -126,17 +124,17 @@ export default {
 
     <footer>
         <div class="footer-esquerda">
-            <img src="logoTotvs.png" alt="Logo 1" class="logo">
+            <img src="../assets/images/ios/logoTotvs.png" alt="Logo 1" class="logo">
         </div>
         <div class="footer-direita">
-            <img src="logoios.png" alt="Logo 2" class="logo">
+            <img src="../assets/images/ios/logoios.png" alt="Logo 2" class="logo">
         </div>
     </footer>
 </body>
 </template>
 
-<style>
-.centro {
+<style scoped>
+    .centro {
             text-align: center;
         }
 

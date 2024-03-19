@@ -1,3 +1,5 @@
+
+import { RouterLink } from 'vue-router';
 <template>
     <header>
             <div class="container-intro">
@@ -19,10 +21,14 @@
             </div>
         </header>
         <nav>
+            <router-link to="/">
             <img src="../assets/images/totvs/logo-totvs-h-white.svg" />
+            </router-link>
             <div class="links">
-                <a href="https://www.totvs.com/" target="_blank">TOTVS</a>
-                <a href="../views/pageIos.vue" target="_blank">IOS</a>
+                <router-link to="/">TOTVS</router-link>
+                    <router-link to="/ios">IOS</router-link>
+                    <router-view></router-view>
+            
             </div>
             <div>
                 <button id="btn-login">

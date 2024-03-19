@@ -1,6 +1,4 @@
 <script lang="ts">
-import Navbar from './components/Navbar.vue';
-import Main from './components/Main.vue'
 import pageTotvs from './views/pageTotvs.vue';
 export default {
 
@@ -11,7 +9,14 @@ components: {
 </script>
 
 <template>
-<pageTotvs>
-</pageTotvs>
+  <pageTotvs>
+  </pageTotvs>
 </template>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+</style>
 

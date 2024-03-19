@@ -1,11 +1,9 @@
 <script lang="ts">
 import Navbar from '../components/Navbar.vue';
-import Main from '../components/Main.vue'
 export default {
 
  components: {
-    Navbar,
-    Main
+    Navbar
   },
 }
 </script>
@@ -218,7 +216,7 @@ export default {
   </main>
 </template>
 
-<style>
+<style scoped>
 #app {
     background-color: #111111;
 }
