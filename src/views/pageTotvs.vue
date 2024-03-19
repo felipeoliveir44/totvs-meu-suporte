@@ -1,4 +1,18 @@
+<script lang="ts">
+import Navbar from '../components/Navbar.vue';
+import Main from '../components/Main.vue'
+export default {
+
+ components: {
+    Navbar,
+    Main
+  },
+}
+</script>
+
 <template>
+  <main>
+    <Navbar />
     
     <section class="apresentacao">
             <div class="container margin-mobile">
@@ -200,6 +214,8 @@
             </div>
         </footer>
 
+
+  </main>
 </template>
 
 <style>
@@ -625,3 +641,4 @@ h4 {
     }
 }
 </style>
+

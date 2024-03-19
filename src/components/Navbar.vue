@@ -2,7 +2,7 @@
     <header>
             <div class="container-intro">
                 <div class="intro">
-                    <img src="../assets/images/logo-totvs-h-white.svg" alt="">
+                    <img src="../assets/images/totvs/logo-totvs-h-white.svg" alt="">
                     <div class="intro-text-meu-suporte">
                         <p id="meu-suporte">Meu Suporte</p>
                     </div>
@@ -12,21 +12,21 @@
                 </div>
                 <div class="intro-button">
                     <button class="btn-download">
-                        <img src="../assets/images/windows.png" alt="">
+                        <img src="../assets/images/totvs//windows.png" alt="">
                         <p>Download para Windows</p>
                     </button>
                 </div>
             </div>
         </header>
         <nav>
-            <img src="../assets/images/logo-totvs-h-white.svg" />
+            <img src="../assets/images/totvs/logo-totvs-h-white.svg" />
             <div class="links">
                 <a href="https://www.totvs.com/" target="_blank">TOTVS</a>
-                <a href="ios.html" target="_blank">IOS</a>
+                <a href="../views/pageIos.vue" target="_blank">IOS</a>
             </div>
             <div>
                 <button id="btn-login">
-                    <img src="../assets/images/user.png" alt="">
+                    <img src="../assets/images/totvs/user.png" alt="">
                     Login
                 </button>
             </div>

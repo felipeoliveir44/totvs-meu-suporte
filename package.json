@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "download": "^8.0.0",
-    "vue": "^3.3.4"
+    "vue": "^3.3.4",
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@tsconfig/node18": "^18.2.0",
