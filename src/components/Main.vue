@@ -347,6 +347,7 @@ footer {
 
 .container-cards {
     display: grid;
+    justify-items: center;
     grid-template-columns: auto auto;
     gap: 20px;
     grid-template-areas:
@@ -431,7 +432,7 @@ h4 {
 }
 
 .margin-mobile {
-    margin: 0px;
+    margin: 20px 0px;
 }
 .text-card:last-child {
     border-right: none;
@@ -583,6 +584,7 @@ h4 {
     }
 
     .container-cards {
+    justify-items: center;
     grid-template-columns: auto auto;
     grid-template-areas:
         "card1 card1"
@@ -590,6 +592,23 @@ h4 {
         "card3 card3"
         "card4 card4"
         "card5 card5"
+    }
+
+    .card5 {
+        max-width: 400px;
+        
+    }
+
+    .container-newsletter {
+        flex-direction: column;
+    }
+
+    .text-newsletter {
+        margin-bottom: 30px;
+    }
+    .test {
+
+        gap:0px;
     }
 }
 
