@@ -121,6 +121,7 @@ nav img {
     gap: 30px;
     color: #fff;
     font-family: 'Bungee', sans-serif;
+    margin: 20px;
 }
 
 #meu-suporte {
@@ -138,12 +139,16 @@ nav img {
     font-size: 1.5rem;
 }
 
+.intro-text p {
+    text-align: center;
+}
+
 .intro-text-meu-suporte {
     width: 100%;
 }
 
 .btn-download {
-    width: 400px;
+    width: 300px;
     height: 78px;
     background-color: #3E2A96;
     border: none;
@@ -156,12 +161,18 @@ nav img {
 }
 
 .btn-download img {
-    width: 64px;
-    height: 64px;
+    width: 32px;
+    height: 32px;
 }
 
 .btn-download:hover {
     transition: 0.2s linear;
     background-color: #302174;
+}
+
+@media screen and (max-width: 1300px) { 
+    #meu-suporte {
+        font-size: 32px;
+    }
 }
 </style>

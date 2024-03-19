@@ -1,7 +1,7 @@
 <template>
     
     <section class="apresentacao">
-            <div class="container">
+            <div class="container margin-mobile">
                 <div class="card-apresentacao">
                     <h2>O que é o TOTVS Meu Suporte?</h2>
                     <p>Uma plataforma gratuita que facilita o acesso aos produtos da TOTVS, oferecendo diversas funcionalidades para atender às necessidades de nossos clientes. 
@@ -23,7 +23,7 @@
     </section>
 
         <section class="funcionalidades">
-            <div class="container-funcionalidades">
+            <div class="container-funcionalidades margin-mobile">
                 <h3>Funcionalidades</h3>
                 <p>Conheça as principais funcionalidades do nosso software TOTVS, projetadas para simplificar e aprimorar sua gestão de negócios.
                 </p>
@@ -66,7 +66,7 @@
 
 
         <section class="metricas">
-            <div class="container-metricas">
+            <div class="container-metricas margin-mobile">
                 <h4>Indicadores de desempenho do nosso produto</h4>
                 <p>Na seção de métricas do nosso produto, disponibilizamos informações essenciais sobre seu desempenho e aceitação pelos clientes.
                 </p>
@@ -91,7 +91,7 @@
         </section>
 
         <section class="clientes-dizem">
-            <div class="container-clientes">
+            <div class="container-clientes margin-mobile">
                 <h4>O que nossos clientes dizem</h4>
                 <p>
                     Em nossa sessão de avaliações, os clientes compartilham feedbacks sobre nossos produtos e serviços.
@@ -180,7 +180,7 @@
 
         <footer>
             <div class="newsletter">
-                <div class="container-newsletter">
+                <div class="container-newsletter margin-mobile">
                     <div class="text-newsletter test">
                         <h5>Entre na nossa Newsletter</h5>
                         <p>Quer se manter atualizado sobre as últimas novidades do Meu Suporte? Então não deixe de assinar a nossa newsletter</p>
@@ -347,7 +347,8 @@ footer {
 
 .container-cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    grid-template-columns: auto auto;
     gap: 20px;
     grid-template-areas:
         "card1 card2"
@@ -357,8 +358,8 @@ footer {
 
 .cards-funcionalidades {
     display: flex;
-    width: 400px;
-    height: 400px;
+    max-width: 400px;
+    height: 350px;
     background-color: #111111;
     border-radius: 30px;
     color: #fff;
@@ -385,8 +386,8 @@ footer {
 }
 
 .card5 {
-    width: 900px;
-    height: 400px;
+    max-width: 900px;
+    height: 300px;
     grid-area: card5;
 }
 
@@ -430,6 +431,9 @@ h4 {
     padding: 0 20px;
 }
 
+.margin-mobile {
+    margin: 20px 0px;
+}
 .text-card:last-child {
     border-right: none;
 }
@@ -539,12 +543,19 @@ h4 {
     }
     nav {
         margin: 20px;
-        width: 95%;
+        width: 100%;
+    }
+
+    .margin-mobile {
+        margin: 20px;
+    }
+
+    .intro {
+        flex-direction: column;
     }
 
     .container {
         width: 100%;
-        margin: 10px;
     }
 
     .banner-apresentacao img {
@@ -553,33 +564,58 @@ h4 {
 
     .container-funcionalidades {
         width: 100%;
-        margin: 10px;
     }
+
+
 
     .card-apresentacao {
         height: auto;
     }
 
     .cards-funcionalidades {
-    width: 400px;
-    height: 400px;
+    width: auto;
+    height: auto;
     background-color: #111111;
     border-radius: 30px;
     }
 
-    .container-metricas {
-        margin: 10px;
+    .card-metricas {
+        flex-direction: column;
     }
 
-    .container-clientes {
-        margin: 10px;
+    .container-cards {
+    justify-items: center;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+        "card1 card1"
+        "card2 card2"
+        "card3 card3"
+        "card4 card4"
+        "card5 card5"
+    }
+
+    .card5 {
+        max-width: 400px;
+        
+    }
+
+    .container-newsletter {
+        flex-direction: column;
+    }
+
+    .text-newsletter {
+        margin-bottom: 30px;
+    }
+    .test {
+
+        gap:0px;
     }
 }
 
 
 @media screen and (max-width: 1100px) {
     .container-cards {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: auto;
     grid-template-areas:
         "card1"
         "card2"
@@ -587,7 +623,5 @@ h4 {
         "card4"
         "card5"
     }
-
-    
 }
 </style>
