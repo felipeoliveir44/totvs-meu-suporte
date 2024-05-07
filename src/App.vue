@@ -18,7 +18,8 @@ export default {
 <template>
   <main>
     <Navbar />
-    <Main></Main>
+    <Main>
+    </Main>
   </main>
  
 </template>
